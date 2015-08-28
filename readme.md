@@ -1,14 +1,15 @@
-# Codepen extension for Kirby 2 (fork of [Kirbytext Codepen tag](https://gist.github.com/ClementRoy/5024929) by ClementRoy)
+# CodePen extension for Kirby 2 (fork of [Kirbytext CodePen tag](https://gist.github.com/ClementRoy/5024929) by ClementRoy)
 
 This extension for Kirby 2 enables you to easily embed CodePen ‘Pens’ into your sites pages.
+
+Your content can be made with Kirby and ❤ and CodePen!
 
 ```
 (codepen: http://codepen.io/chriscoyier/pen/oqHlh/)
 ```
-
 Kirby 2 allows Kirbytext (Kirbys custom implementation of Mark Down) to be extended with custom ‘Kirbytags’. _[More about Kirbytags](http://getkirby.com/docs/advanced/kirbytext)_.
 
-_Sorry, not backwards compatible with Kirby 1. [Kirbytext Codepen tag](https://gist.github.com/ClementRoy/5024929) by ClementRoy is compatible._
+_Sorry, not backwards compatible with Kirby 1. [Kirbytext CodePen tag](https://gist.github.com/ClementRoy/5024929) by ClementRoy is compatible._
 
 ## Installation
 
