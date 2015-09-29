@@ -28,7 +28,7 @@ kirbytext::$tags['codepen'] = array(
 			// Builds Pen HTML output
 			$html = '<figure class="code-container">';
 			$html .= '<pre class="codepen" data-theme-id="'. $theme .'" data-height="'. $height .'" data-type="'. $result .'" data-slug-hash="'. $array[2] .'" data-user="'. $array[1] .'" data-class="'. $penclass .'"><code></code></pre>';
-			$html .= '<script async src="https://codepen.io/assets/embed/ei.js"></script></figure>';
+			$html .= '<script async src="https://assets.codepen.io/assets/embed/ei.js"></script></figure>';
 		
 			return $html;
 		
