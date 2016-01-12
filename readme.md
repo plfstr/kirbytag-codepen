@@ -36,21 +36,25 @@ You can specify an additional class which will apply to the CodePen iframe.
 ```
 (codepen: http://codepen.io/chriscoyier/pen/oqHlh/ class: picked-pen)
 ```
-This should be considered for adding custom styles to specific Pens. _To apply a theme to all Pens, see next section._
+This should be considered for adding custom styles to specific Pens. To apply a theme to all Pens, see next section.
 
 ### Default Theme
 
-_**This is a more advanced option and not essential, CodePen embeds will use the default CodePen theme style by default.**_
+_**This is a more advanced option and not essential, CodePen embeds will use the default CodePen theme style by default. Changing the default theme requires editing codepen.php file directly**_
 
 If you are a CodePen user, pen themes enable you to [create a theme style](http://blog.codepen.io/2013/07/23/the-new-embed-builder-customize-every-aspect/) for your embedded Pens. 
 
-_**Note**: Changing the default theme requires editing codepen.php file directly_
+You can find your Theme ID in the standard embed code from the ‘Share’ option in any Pen. Look for the `data-theme-id` value.
 
 To change from the default CodePen theme to your personal embed theme, open `site/tags/codepen.php` and edit the `$theme = '';` value, to your theme (data-theme-id) value.
 
-You can find your Theme ID in the standard embed code from the ‘Share’ option in any Pen. Look for the `data-theme-id`  value.
-
 _**Note:** Amending this value will change the theme of ALL your CodePen embeds using this Kirby extension._
+
+### Override Attributes
+
+_**These are optional and require manual coding for finer control for your pages embeds.**_
+
+There is a [list of embed override attributes](http://blog.codepen.io/documentation/features/embedded-pens/#attributes) on the CodePen site which can toggle additional embed functionality. 
 
 ****
 
