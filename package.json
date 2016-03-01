@@ -1,0 +1,8 @@
+{
+  "name": "kirbytag-codepen",
+  "description": "Kirby 2 Kirbytag extension for simple CodePen embeds",
+  "author": "Paul Foster (@plfstr)",
+  "version": "2.0.0",
+  "type": "kirby-tag",
+  "license": "MIT"
+}
