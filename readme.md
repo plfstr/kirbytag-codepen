@@ -59,3 +59,23 @@ There is a [list of embed override attributes](http://blog.codepen.io/documentat
 ****
 
 **Update** Updated to include new support for CodePen iframe classes see [Parameters](#parameters) section or read about [the class feature](http://blog.codepen.io/2014/10/31/add-class-name-embed-iframe/).
+
+**Update** You can now set default settings which will apply to all embedded pens via the `/site/config/config.php` page used for many other Kirby 2 plugins settings.
+
+If you don’t set or want to use these configurations, your pen will still embed and CodePens defaults will apply. 
+
+The following options are available for configuration:
+
+```txt
+c::set('codepenHeight', ''); // set a default height
+c::set('codepenDisplay', ''); // set which tab displays
+c::set('codepenClass', ''); // set a default class for all embedded pens
+c::set('codepenTheme', ''); // set your user theme number (see Default Theme instructions)
+c::set('codepenPreview', ''); // set click-to-play true/false
+```
+
+Also note you can specify these settings on a pen-by-pen basis by continuing to use inline Kirbytag properties. 
+
+Settings apply in the following order - Kirbytext inline, over Kirby config, over CodePen defaults.
+
+Hope you enjoy having your settings available in one place.
